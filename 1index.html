@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday 🎂</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: #ff4081;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .btn:hover {
+      background: #ff1c68;
+      transform: scale(1.05);
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 25px rgba(255,255,255,0.6);
+      animation: float 3s ease-in-out infinite;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <img src="IMG_643CB0EC-EC17-4052-A1F7-5CB5A040524C.jpeg" alt="birthday">
+  <h1>🎂 Happy Birthday! 🎉</h1>
+  <p>Wishing you a day filled with love, laughter, and memories!</p>
+  <a href="gallery.html" class="btn">Next 🎁</a>
+</body>
+</html>
